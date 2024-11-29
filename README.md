@@ -1,21 +1,22 @@
-Increment App
+# Increment App
 
-Bridging Flutter and Native iOS (Swift)
+## Bridging Flutter and Native iOS (Swift)
 
 
-Summary
+ ### Summary
 
 I created a simple Swift app that includes an incrementCount function to increment a counter.
 I set up a Flutter project and added a platform channel to communicate with the Swift code.
 The Flutter app calls the incrementCount method in Swift to increment the count and display the result.
 You now have an app where Flutter can communicate with Swift via platform channels, allowing you to call native functionality from Flutter.
 
-step-by-step guide
+### step-by-step guide
 
 1. Create an Increment App in Swift (iOS)
 First, let's create the Swift code for the iOS part of the app.
 
-Steps:
+### Steps:
+
 Create a new iOS app in Xcode:
 
 Open Xcode and create a new iOS project using the "App" template.
@@ -109,9 +110,9 @@ Displays the current count and updates it every time the increment button is pre
 5. Run the App
 Run the App: Go back to the root directory of your Flutter project and run the app:
 
-flutter run
+### flutter run
 
-Test the Increment Functionality: When you press the "Increment" button, the Flutter app will communicate with the native Swift code, increment the count, and display the updated count in the Flutter interface.
+### Test the Increment Functionality: When you press the "Increment" button, the Flutter app will communicate with the native Swift code, increment the count, and display the updated count in the Flutter interface.
 
 
 
